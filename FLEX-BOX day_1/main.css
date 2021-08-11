@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+li,a{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: yellow;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    height: 10%;
+}
+.uk{
+    list-style: none;
+}
+.uk li{
+    display:inline-block;
+    padding: 0px 20px;
+    letter-spacing: 2px;
+}
+h3{
+    font-family: sans-serif;
+    font-size: 30px;
+    letter-spacing: 4px;
+    color: gold;
+    font-weight: bolder;
+    cursor: pointer;
+}
+a:hover{
+    color: yellow;
+    font-size: 25px;
+}
+span{
+    color:tomato;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+body{
+    background-image: url(/LbshI7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+marquee{
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+marquee:hover{
+    
+    cursor: pointer;
+    
+}
